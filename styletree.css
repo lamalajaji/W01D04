@@ -1,0 +1,77 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("./tree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  list-style-type: none;
+  font-family: sans-serif;
+  background-color: rgba(255, 249, 244, 0.98);
+  border-bottom: 1px solid lightgrey;
+}
+span,
+.home {
+  color: darkorange;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  width: 900px;
+}
+
+li {
+  display: flex;
+  float: right;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.class {
+  padding-top: 2px;
+  padding-left: 30px;
+  font-size: 25px;
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.6);
+}
+
+div {
+  padding-top: 90px;
+  margin-left: 100px;
+  text-align: left;
+  font-family: sans-serif;
+  color: rgb(70, 70, 26);
+}
+h1 {
+  font-size: 50px;
+  text-shadow: 11px 2px 16px rgba(0, 0, 0, 0.6);
+}
+.p1,
+.p2 {
+  font-size: 25px;
+}
+button {
+  margin-left: 100px;
+  padding: 15px;
+  background-color: rgb(10, 10, 10);
+  font-family: sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+}
