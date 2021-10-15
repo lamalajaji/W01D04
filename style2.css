@@ -1,0 +1,73 @@
+body {
+  margin: 0 11rem;
+}
+
+header {
+  margin: 0 8rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.about {
+  font-size: 18px;
+  margin: 1rem;
+}
+
+div {
+  display: inline-block;
+  margin: 3rem 1rem;
+  width: 65rem;
+  text-align: center; /* make change for display*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  text-align: left;
+  margin-top: 60px;
+  padding: 15px;
+  font-size: 15px;
+  color: rgb(54, 60, 66);
+}
+.volunteer {
+  width: 27%;
+  height: 25rem;
+  border: 1px solid lightgray;
+  border-top: 3px solid rgb(212, 153, 44);
+  box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+}
+
+.donation {
+  width: 27%;
+  height: 25rem;
+  border: 1px solid lightgray;
+  border-top: 3px solid rgb(212, 153, 44);
+  box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px -4px 11px 0px;
+}
+.Advertisement {
+  width: 27%;
+  height: 25rem;
+  border: 1px solid lightgray;
+  border-top: 3px solid rgb(212, 153, 44);
+  box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px -4px 11px 0px;
+}
+i {
+  font-size: 40px;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: 4px solid rgb(212, 153, 44);
+}

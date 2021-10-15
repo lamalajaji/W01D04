@@ -1,9 +1,10 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: url("./tree.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: center;
+  
   font-size: 20px;
   list-style-type: none;
   font-family: sans-serif;
@@ -23,19 +24,22 @@ span,
   color: darkorange;
 }
 ul {
+  
   list-style-type: none;
-  margin: 10px;
-  width: 900px;
+  margin: 2px;
+  padding-right: 0%;
 }
 
 li {
-  display: flex;
   float: right;
+  align-items: right;
+  display: grid;
+  
 }
 li a {
   display: block;
   color: black;
-  text-align: center;
+  
   font-weight: bold;
   padding: 14px 16px;
   text-decoration: none;
