@@ -21,7 +21,7 @@ div {
   display: inline-block;
   margin: 3rem 1rem;
   width: 65rem;
-  text-align: center; /* make change for display*/
+  text-align: center; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
